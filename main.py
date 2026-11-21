@@ -14,7 +14,7 @@ from telebot import TeleBot, types
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ==================== CONFIG ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8500798158:AAEWGtfm5p6jo7XaFUzTlzQv6uNhGyzlYDM")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9150929013:AAE3Qt2JSifrUmz99MBg0LlT9pyVo4GVgpI")
 OWNER_ID = int(os.getenv("OWNER_ID", "6863389453"))
 
 DB_FILE = os.getenv("DB_FILE", "users.json")
